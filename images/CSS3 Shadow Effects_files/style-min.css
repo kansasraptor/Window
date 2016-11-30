@@ -1,0 +1,90 @@
+body, html, body, * {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+}
+
+body, #container, #container img, #chromeCover {
+  width: 728px;
+  height: 90px;
+  overflow: hidden;
+}
+
+#container {
+  overflow: hidden;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+}
+
+#container > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 728px;
+  height: 90px;    
+  overflow: hidden;
+}
+
+#red{
+  background-color: #FF0D00;
+}
+
+#black{
+  background-color: #000000;
+}
+
+#cta {
+	top: 24px !important;
+	left: 586px !important;
+	width: 130px !important;
+	height: 41px !important;
+}
+
+#cta > img {
+	width: 129px !important;
+	height: 41px !important;
+}
+
+#slash {
+	top: 29px !important;
+	left: 140px !important;
+}
+
+#slash > img{
+  width: 31px !important;
+  height: 28px !important;
+}
+
+#chromeCover {
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+#border {
+  width: 726px !important;
+  height: 88px !important;
+  border: 1px solid #999999;
+  background-color: transparent;
+}
+
+#shimmer {
+  position: absolute;
+  background: url(../img/shimmer.png) no-repeat;
+  background-size: 145px 43px;
+  background-position: -145px 0px;
+    width: 143px !important;
+    height: 43px !important;
+    top: 0px;
+    left: 0px;
+}
+
+#clickScreen {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 728px;
+  height: 90px;  
+  cursor: pointer;
+}
